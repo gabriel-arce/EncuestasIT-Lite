@@ -1,0 +1,640 @@
+--Sexo
+Nombre,IdSexo
+No informa,0
+Masculino,1
+Femenino,2
+
+--Nivel educativo
+IdNivelEducativo	Nombre
+0	No informa
+1	Primario
+2	Secundario en curso o incompleto
+3	Secundario completo
+4	Terciario en curso o incompleto
+5	Terciario completo
+6	Universitario en curso o incompleto
+7	Universitario completo
+8	Master o postgrado en curso o incompleto
+9	Master o postgrado completo
+
+--Tipo de empresa
+IdTipoDeEmpresa	Nombre
+0	No informa
+1	Una empresa privada
+2	Un organismo estatal
+3	Una ONG
+4	Otro
+5	Mi propia empresa
+6	Soy independiente / freelance
+
+--Provincia
+IdProvincia	Nombre	IdPais
+1	Capital Federal	1
+2	GBA Zona Norte	1
+3	GBA Zona Oeste	1
+4	GBA Zona Sur	1
+5	Costa Atlántica	1
+6	Buenos Aires	1
+7	Catamarca	1
+8	Córdoba	1
+9	Chaco	1
+10	Chubut	1
+11	Corrientes	1
+12	Entre Ríos	1
+13	Formosa	1
+14	Jujuy	1
+15	La Pampa	1
+16	La Rioja	1
+17	Misiones	1
+18	Mendoza	1
+19	Neuquén	1
+20	Río Negro	1
+21	Salta	1
+22	Santa Cruz	1
+23	Santiago del Estero	1
+24	Sante Fe	1
+25	San Juan	1
+26	San Luis	1
+27	Tierra del Fuego	1
+28	Tucumán	1
+29	A Coruña	2
+30	Albacete	2
+31	Alicante	2
+32	Almería	2
+33	Asturias	2
+34	Ávila	2
+35	Badajoz	2
+36	Baleares	2
+37	Barcelona	2
+38	Bizkaia	2
+39	Burgos	2
+40	Cáceres	2
+41	Cádiz	2
+42	Cantabria	2
+43	Castellón	2
+44	Ceuta	2
+45	Ciudad Real	2
+46	Córdoba	2
+47	Cuenca	2
+48	Gipuzkoa	2
+49	Girona	2
+50	Granada	2
+51	Guadalajara	2
+52	Huelva	2
+53	Huesca	2
+54	Jaén	2
+55	La Rioja	2
+56	Las Palmas	2
+57	León	2
+58	Lleida	2
+59	Lugo	2
+60	Madrid	2
+61	Málaga	2
+62	Melilla	2
+63	Murcia	2
+64	Navarra	2
+65	Ourense	2
+66	Palencia	2
+67	Pontevedra	2
+68	Salamanca	2
+69	Segovia	2
+70	Sevilla	2
+71	Soria	2
+72	Sta. Cruz de Tenerife	2
+73	Tarragona	2
+74	Teruel	2
+75	Toledo	2
+76	Valencia	2
+77	Valladolid	2
+78	Zamora	2
+79	Zaragoza	2
+80	Chuquisaca	3
+81	Cochabamba	3
+82	El Beni	3
+83	La Paz	3
+84	Oruro	3
+85	Pando	3
+86	Potosi	3
+87	Santa Cruz	3
+88	Tarija	3
+89	Aisen del General Carlos Ibanez del Campo	4
+90	Antofagasta	4
+91	Araucania	4
+92	Atacama	4
+93	Bio-Bio	4
+94	Coquimbo	4
+95	Libertador General Bernardo OHiggins	4
+96	Los Lagos	4
+97	Magallanes y de la Antartica Chilena	4
+98	Maule	4
+99	Region Metropolitana	4
+100	Tarapaca	4
+101	Valparaiso	4
+102	Amazonas	5
+103	Antioquia	5
+104	Arauca	5
+105	Atlantico	5
+106	Bolivar	5
+107	BolÃ­var Department	5
+108	Boyaca	5
+109	BoyacÃ¡ Department	5
+110	Caldas	5
+111	Caldas Department	5
+112	Caqueta	5
+113	Casanare	5
+114	Cauca	5
+115	Cesar	5
+116	Choco	5
+117	Cordoba	5
+118	Cundinamarca	5
+119	Distrito Especial	5
+120	Guainia	5
+121	Guaviare	5
+122	Huila	5
+123	La Guajira	5
+124	Magdalena	5
+125	Magdalena Department	5
+126	Meta	5
+127	Narino	5
+128	Norte de Santander	5
+129	Putumayo	5
+130	Quindio	5
+131	Risaralda	5
+132	San Andres y Providencia	5
+133	Santander	5
+134	Sucre	5
+135	Tolima	5
+136	Valle del Cauca	5
+137	Vaupes	5
+138	Vichada	5
+139	Alajuela	6
+140	Cartago	6
+141	Guanacaste	6
+142	Heredia	6
+143	Limon	6
+144	Puntarenas	6
+145	San Jose	6
+146	Camaguey	7
+147	Ciego de Avila	7
+148	Cienfuegos	7
+149	Ciudad de la Habana	7
+150	Granma	7
+151	Guantanamo	7
+152	Holguin	7
+153	Isla de la Juventud	7
+154	La Habana	7
+155	Las Tunas	7
+156	Matanzas	7
+157	Pinar del Rio	7
+158	Sancti Spiritus	7
+159	Santiago de Cuba	7
+160	Villa Clara	7
+161	Azuay	8
+162	Bolivar	8
+163	Canar	8
+164	Carchi	8
+165	Chimborazo	8
+166	Cotopaxi	8
+167	El Oro	8
+168	Esmeraldas	8
+169	Galapagos	8
+170	Guayas	8
+171	Imbabura	8
+172	Loja	8
+173	Los Rios	8
+174	Manabi	8
+175	Morona-Santiago	8
+176	Napo	8
+177	Orellana	8
+178	Pastaza	8
+179	Pichincha	8
+180	Sucumbios	8
+181	Tungurahua	8
+182	Zamora-Chinchipe	8
+183	Ahuachapan	9
+184	Cabanas	9
+185	Chalatenango	9
+186	Cuscatlan	9
+187	La Libertad	9
+188	La Paz	9
+189	La Union	9
+190	Morazan	9
+191	San Miguel	9
+192	San Salvador	9
+193	San Vicente	9
+194	Santa Ana	9
+195	Sonsonate	9
+196	Usulutan	9
+197	Alta Verapaz	10
+198	Baja Verapaz	10
+199	Chimaltenango	10
+200	Chiquimula	10
+201	El Progreso	10
+202	Escuintla	10
+203	Guatemala	10
+204	Huehuetenango	10
+205	Izabal	10
+206	Jalapa	10
+207	Jutiapa	10
+208	Peten	10
+209	Quetzaltenango	10
+210	Quiche	10
+211	Retalhuleu	10
+212	Sacatepequez	10
+213	San Marcos	10
+214	Santa Rosa	10
+215	Solola	10
+216	Suchitepequez	10
+217	Totonicapan	10
+218	Zacapa	10
+219	Atlantida	11
+220	Choluteca	11
+221	Colon	11
+222	Comayagua	11
+223	Copan	11
+224	Cortes	11
+225	El Paraiso	11
+226	Francisco Morazan	11
+227	Gracias a Dios	11
+228	Intibuca	11
+229	Islas de la Bahia	11
+230	La Paz	11
+231	Lempira	11
+232	Ocotepeque	11
+233	Olancho	11
+234	Santa Barbara	11
+235	Valle	11
+236	Yoro	11
+237	Aguascalientes	12
+238	Baja California	12
+239	Baja California Sur	12
+240	Campeche	12
+241	Chiapas	12
+242	Chihuahua	12
+243	Coahuila de Zaragoza	12
+244	Colima	12
+245	Distrito Federal	12
+246	Durango	12
+247	Guanajuato	12
+248	Guerrero	12
+249	Hidalgo	12
+250	Jalisco	12
+251	Mexico	12
+252	Michoacan de Ocampo	12
+253	Morelos	12
+254	Nayarit	12
+255	Nuevo Leon	12
+256	Oaxaca	12
+257	Puebla	12
+258	Queretaro de Arteaga	12
+259	Quintana Roo	12
+260	San Luis Potosi	12
+261	Sinaloa	12
+262	Sonora	12
+263	Tabasco	12
+264	Tamaulipas	12
+265	Tlaxcala	12
+266	Veracruz-Llave	12
+267	Yucatan	12
+268	Zacatecas	12
+269	Boaco	13
+270	Carazo	13
+271	Chinandega	13
+272	Chontales	13
+273	Esteli	13
+274	Granada	13
+275	Jinotega	13
+276	Leon	13
+277	Madriz	13
+278	Managua	13
+279	Masaya	13
+280	Matagalpa	13
+281	Nueva Segovia	13
+282	Rio San Juan	13
+283	Rivas	13
+284	Zelaya	13
+285	Bocas del Toro	14
+286	Chiriqui	14
+287	Cocle	14
+288	Colon	14
+289	Darien	14
+290	Herrera	14
+291	Los Santos	14
+292	Panama	14
+293	San Blas	14
+294	Veraguas	14
+295	Alto Paraguay	15
+296	Alto Parana	15
+297	Amambay	15
+298	Boqueron	15
+299	Caaguazu	15
+300	Caazapa	15
+301	Canindeyu	15
+302	Central	15
+303	Chaco	15
+304	Concepcion	15
+305	Cordillera	15
+306	Guaira	15
+307	Itapua	15
+308	Misiones	15
+309	Neembucu	15
+310	Nueva Asuncion	15
+311	Paraguari	15
+312	Presidente Hayes	15
+313	San Pedro	15
+314	Amazonas	16
+315	Ancash	16
+316	Apurimac	16
+317	Arequipa	16
+318	Ayacucho	16
+319	Cajamarca	16
+320	Callao	16
+321	Cusco	16
+322	Huancavelica	16
+323	Huanuco	16
+324	Ica	16
+325	Junin	16
+326	La Libertad	16
+327	Lambayeque	16
+328	Lima	16
+329	Loreto	16
+330	Madre de Dios	16
+331	Moquegua	16
+332	Pasco	16
+333	Piura	16
+334	Puno	16
+335	San Martin	16
+336	Tacna	16
+337	Tumbes	16
+338	Ucayali	16
+339	Puerto Rico (General)	17
+340	Azua	18
+341	Baoruco	18
+342	Barahona	18
+343	Dajabon	18
+344	Distrito Nacional	18
+345	Duarte	18
+346	El Seibo	18
+347	Elias Pina	18
+348	Espaillat	18
+349	Hato Mayor	18
+350	Independencia	18
+351	La Altagracia	18
+352	La Romana	18
+353	La Vega	18
+354	Maria Trinidad Sanchez	18
+355	Monsenor Nouel	18
+356	Monte Cristi	18
+357	Monte Plata	18
+358	Pedernales	18
+359	Peravia	18
+360	Puerto Plata	18
+361	Salcedo	18
+362	Samana	18
+363	San Cristobal	18
+364	San Juan	18
+365	San Pedro De Macoris	18
+366	Sanchez Ramirez	18
+367	Santiago	18
+368	Santiago Rodriguez	18
+369	Valverde	18
+370	Artigas	19
+371	Canelones	19
+372	Cerro Largo	19
+373	Colonia	19
+374	Durazno	19
+375	Flores	19
+376	Florida	19
+377	Lavalleja	19
+378	Maldonado	19
+379	Montevideo	19
+380	Paysandu	19
+381	Rio Negro	19
+382	Rivera	19
+383	Rocha	19
+384	Salto	19
+385	San Jose	19
+386	Soriano	19
+387	Tacuarembo	19
+388	Treinta y Tres	19
+389	Amazonas	20
+390	Anzoategui	20
+391	Apure	20
+392	Aragua	20
+393	Barinas	20
+394	Bolivar	20
+395	Carabobo	20
+396	Cojedes	20
+397	Delta Amacuro	20
+398	Dependencias Federales	20
+399	Distrito Federal	20
+400	Falcon	20
+401	Guarico	20
+402	Lara	20
+403	Merida	20
+404	Miranda	20
+405	Monagas	20
+406	Nueva Esparta	20
+407	Portuguesa	20
+408	Sucre	20
+409	Tachira	20
+410	Trujillo	20
+411	Vargas	20
+412	Yaracuy	20
+413	Zulia	20
+
+--Puesto
+IdPuesto	Nombre
+1	Desarrollador de software / Programador
+2	Arquitecto
+3	Lider de Proyecto
+4	Analista Funcional
+5	Selector de personal TI
+6	Diseñador Web
+7	Investigación
+8	Consultor TI
+9	Administrador de Base de Datos
+10	Administrador de Redes
+11	Analista de Garantía de Calidad (QA)
+12	Analista de Seguridad Informática
+13	Auditor
+14	Comercial de TI
+15	Director de Sistemas
+16	Documentador de Sistemas
+17	Gerente de Proyectos
+18	Implementador de Sistemas
+19	Instructor
+20	Gerente de Compras TI
+21	Gerente de Comunicaciones
+22	Gerente de Desarrollo
+23	Gerente de Operaciones
+24	Gerente de Seguridad Informática
+25	Gerente de Sistemas
+26	Gerente de Tecnología
+27	Gerente de Ventas TI
+28	Pasante
+29	Mesa de Ayuda (Help Desk)
+30	Soporte Técnico
+31	Pasante (Trainee)
+32	Otro
+33	Administrador de Almacenamiento (Storage)
+34	Administrador Middleware
+35	Administrador de Sistemas
+36	Administrador de Ambientes
+37	Administrador de Servidores
+38	Coordinador de Grupo
+39	Lider Técnico
+40	Comprador TI
+41	Data Entry
+42	Soporte de Aplicación
+43	Soporte de Posventa
+44	Jefe de Mesa de Ayuda
+45	Operador NOC
+46	Líder de Mesa de Ayuda
+47	Líder de Operaciones
+48	Líder de Garantía de Calidad (QA)
+49	Líder de Seguridad Informática
+50	Líder de Soporte Técnico
+51	Operador de AS400
+52	Preventa
+53	Ejecutivo de Cuenta
+54	Gerente de Producto
+55	Analista BI
+56	Scrum Master
+57	Auditor de TI
+58	Gerente General
+60	Director General
+61	Administrador de Backup
+62	Maquetador
+63	Administrador de Proyectos
+64	Operador de Sistemas
+65	Tester Funcional
+66	Analista de Testeo
+67	Jefe de Compras TI
+68	Jefe de Comunicaciones
+69	Jefe de Desarrollo
+70	Jefe de Operaciones
+71	Jefe de Seguridad Informática
+72	Jefe de Sistemas
+73	Jefe de Tecnología
+74	Jefe de Ventas TI
+75	Jefe de Gestión de Demanda
+76	Diseñador Multimedia
+77	Gestor de Cambios de IT
+78	Gestor de Transición
+79	Gestor de Configuraciones
+80	Analista de Cambios
+81	Gerente de Procesos de IT
+82	Gestor de Incidentes
+83	Gestor de Problemas
+84	Gerente de Demanda
+85	Gerente de Infraestructura
+86	Jefe de Infraestructura
+87	Supervisor de Infraestructura
+88	Responsable de Infraestructura
+89	Analista de Gestión de la Demanda
+90	Responsable de Gestión de la Demanda
+91	Analista de Procesos
+92	Responsable de Procesos
+93	Gestor de Servicios
+94	Desarrollador BI
+95	Lider BI
+96	Gerente Regional de IT
+
+--Tecnología
+IdTecnologiaPrincipal	Nombre
+1	.Net
+2	Java
+3	PHP
+5	C++
+6	C
+7	Ruby
+8	Perl
+9	Prolog
+10	Smalltalk
+11	Python
+12	Delphi
+13	VisualBasic
+15	ActionScript
+16	Javascsript
+17	Asp
+19	Html
+20	Haskell
+21	MSSQLServer
+22	Oracle
+23	PostgreSql
+24	DatawareHousing
+25	Cobol
+26	DB2
+27	SAP
+28	Siebel
+29	Otro
+30	Windows
+31	Linux
+32	Solaris
+33	Aix
+34	Hp-ux
+35	Mainframe
+36	AS/400
+37	Assembler
+38	CMS
+39	Cobol
+40	Siebel
+41	ERP
+42	Flash
+43	Flex
+44	Meta4
+45	RPG
+46	Hp
+47	Unix
+48	Clipper
+49	Genexus
+50	MySql Server
+51	Visual FoxPro
+52	Android
+53	Sharepoint
+54	Clarion
+55	QlikView
+56	Microstrategy
+57	BusinessObject
+58	Cognos
+59	Hyperion
+60	Tibco
+61	Board
+62	Pentaho
+63	CISCO
+64	SSIS
+65	VMWare
+66	PowerBuilder
+67	CRM
+68	Objective-C
+69	JD Edwards
+70	PeopleSoft
+71	Joomla
+72	Clojure
+73	Scala
+74	Node js
+75	Ruby on Rails
+
+--Pais
+Id	Descripcion	Moneda	Codigo
+1	Argentina	pesos	AR
+2	España	euros	ES
+3	Bolivia	bolivianos	BO
+4	Chile	pesos chilenos	CL
+5	Colombia	pesos colombianos	CO
+6	Costa Rica	colones	CR
+7	Cuba	pesos cubanos	CU
+8	Ecuador	dolares	EC
+9	El Salvador	dolares	SV
+10	Guatemala	quetzales	GT
+11	Honduras	lempiras	HN
+12	Mexico	pesos mexicanos	MX
+13	Nicaragua	cordobas	NI
+14	Panama	balboas	PA
+15	Paraguay	guaranies	PY
+16	Peru	nuevos soles	PE
+17	Puerto Rico	dolares	PR
+18	Republica Dominicana	pesos dominicanos	DO
+19	Uruguay	pesos uruguayos	UY
+20	Venezuela	bolivares	VE
