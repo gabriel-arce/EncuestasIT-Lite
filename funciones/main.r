@@ -219,8 +219,6 @@ table(encuestas$TienePersonasACargo)
 
 # todas las (edad > 65) las vamos a considerar anomalas y vamos a desechar esos registros
 encuestas <- encuestas[encuestas$Edad < 66, ]
-#hist(encuestas$Edad)
-#rug(encuestas$Edad)
 
 
 # todas las (horas trabajadas >= 120 o <= 18) las vamos a considerar anomalas y vamos a desechar esos registros
