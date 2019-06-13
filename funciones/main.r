@@ -2,6 +2,7 @@
 
 source("./funciones/quitarSaltosLineaComentarios.R")
 source("./funciones/cantidadOcurrenciasStr.R")
+source("./funciones/installAndLoad.R")
 
 # ----------------------  Constantes  ----------------------  
 
